@@ -61,11 +61,12 @@ citations to put there.
 
 ## Stage 2 — Writing hooks
 
-Read `references/hook-patterns.md` first. For a given topic, generate one hook per pattern
-(question, shocking-stat, contrarian-claim, story-cold-open, contradiction — five total, plus
-the vox-pop cold open as an optional combinable device on top of any of them) — so the user is
-actually choosing between different angles, not different wordings. Each hook should be 1-3
-sentences, exactly as it would be spoken on camera or in voiceover, not a description of a hook.
+Read `references/hook-patterns.md` first. For a given topic, generate one hook per core pattern
+(question, shocking-stat, contrarian-claim, story-cold-open, contradiction — five total), plus
+consider layering a vox-pop/news-montage or cryptic-quote cold open in front of one of them when
+real footage or a genuinely disorienting quote exists for the story — so the user is actually
+choosing between different angles, not different wordings. Each hook should be 1-3 sentences,
+exactly as it would be spoken on camera or in voiceover, not a description of a hook.
 
 After the user picks or the ideas are solid, record the winning hook_angle back into
 `content/topics.csv` for that topic and update its status to `hooked`.

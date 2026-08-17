@@ -61,16 +61,32 @@ topics where the "obvious" cause-and-effect didn't play out as expected.
 > "Pakistan's central bank just cut interest rates for the fourth straight time — and business
 > lending fell anyway. That's not supposed to happen. Here's what actually broke."
 
-## 6. Vox-pop cold open (combinable opener)
+## 6. Vox-pop / news-montage cold open (combinable opener)
 
 Not a standalone hook pattern but a device that can precede any of the five above: open on two
-or three short, real, differing answers to the same simple question (man-on-the-street style,
-or contrasting expert quotes), which establishes "here's the common wisdom" — then the actual
-hook breaks that consensus. This works because it lets the audience feel their own assumption
-stated out loud right before it gets challenged, which makes the break land harder than if the
-video just asserted the contrarian point cold. Only worth the production overhead (multiple
-short clips/quotes) when the topic has a genuinely common, quotable popular belief to set up —
-don't force it for niche mechanism explainers where there's no "common wisdom" to begin with.
+or three short, real clips that establish "here's what's already being said about this" —
+either man-on-the-street answers to a simple question, or a quick cut between real news
+headlines/clips covering the same event from different outlets. Both versions do the same job:
+they let the audience register the situation as real and already-in-motion before the host's
+own hook lands, which makes the host's framing feel like an addition to a real conversation
+rather than a video starting cold. The news-clip version is the natural fit for a fast-breaking
+event story (a resignation, a crash, a policy announcement); the person-on-the-street version
+fits better when the point is a *belief* rather than an *event*. Only worth the production
+overhead when there's real footage/quotes to cut together — don't fabricate quotes to fill this
+slot.
+
+## 7. Cryptic-quote cold open
+
+Opens on a short, out-of-context fragment of something a key figure actually said — confusing
+on its own, almost withholding meaning — before cutting to the dated event that explains it.
+The confusion is the hook: the viewer doesn't yet know who's speaking or why, which creates a
+pull to keep watching until it clicks. This only works with a real quote from the story itself
+(a resignation letter, a leaked memo, a court statement) — never invent a quote to fill this
+slot, and don't use it if the real quote isn't genuinely disorienting out of context.
+
+> [cold open, no context given yet] "It wasn't a decision I made lightly. By the time anyone
+> else understood what was happening, it was already done." [cut to date + headline that
+> explains whose voice that was]
 
 ## Choosing between them
 
@@ -78,6 +94,17 @@ don't force it for niche mechanism explainers where there's no "common wisdom" t
 - Economic mechanism most people misunderstand → question or shocking-stat
 - Widely-repeated but shaky popular narrative → contrarian-claim
 - An event where the expected cause-and-effect visibly didn't happen → contradiction hook
+- A fast-breaking event story with real news coverage or a real disorienting quote available →
+  news-montage or cryptic-quote cold open, layered in front of whichever core hook fits
 - When unsure, generate several and let the user pick — different hooks suit different
   audiences and thumbnail/title pairings, so this is a real creative decision, not just a
   formality.
+
+## A note on contradiction as a recurring device
+
+Contradiction doesn't have to be spent entirely in the opening hook. When a key figure's own
+public statements conflict with each other later in the story (a resignation letter says one
+thing, a follow-up interview says another), calling that out directly and briefly mid-narrative
+("that doesn't add up — here's the contradiction") works as its own escalation beat, not just
+an opener. Don't manufacture a contradiction that isn't really there — this only works when the
+source material genuinely conflicts with itself.
