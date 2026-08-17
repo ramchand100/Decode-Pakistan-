@@ -40,16 +40,41 @@ but touches at least one other (a business case study about a textile mill colla
 economic story about currency devaluation, for instance) — that overlap is often what makes a
 topic strong rather than generic.
 
+### Two ways a topic earns its place
+
+There are two genuinely different kinds of topic, and a healthy tracker needs both — don't
+default to only one:
+
+- **News-driven.** Tied to something that just happened — a policy change, a deal, a crash, a
+  resignation. The hook comes from timeliness and a contradiction or surprise inside the event
+  itself. Most of the tracker so far is this type.
+- **Mechanism / behind-the-scenes.** Not tied to any specific recent event — an explainer of a
+  system, institution, or hidden process that's been running for years and that most viewers
+  have never seen clearly explained, even if they interact with it constantly (a land-record
+  system, an informal money-transfer network, a quota formula, who actually owns a piece of
+  property on paper). These topics don't go stale, they're what separates an explainer channel
+  from a news channel, and they're systematically under-produced if topic research only chases
+  headlines — actively look for them, not just when the user asks for "something behind the
+  scenes."
+
+When generating a fresh batch without the user specifying a type, mix both rather than only
+pulling from recent news — a batch that's 100% reactive to this week's headlines is a sign the
+search skewed too narrow.
+
 When asked for topic ideas:
 1. Research current, real, verifiable stories — don't invent company names, statistics, or
    events. If you're not confident a detail is accurate, say so rather than presenting it as fact.
+   For a mechanism topic, "current" means the mechanism is still actually in effect, not that a
+   news event triggered it this week.
 2. For each idea, write: the topic (one line), the pillar, and a one-line "why this works"
    angle — the specific tension, surprise, or stakes that makes it worth 12 minutes of someone's
    time. "Why this works" is not a summary of the topic; it's the reason a viewer who's never
    heard of this story would stay for the hook.
 3. Favor specificity over breadth. "How Pakistan's textile industry lost its edge" is weaker
    than "How one Faisalabad mill's 2008 bet on cotton futures wiped out three family
-   conglomerates" — specific stories have real hooks; category surveys don't.
+   conglomerates" — specific stories have real hooks; category surveys don't. For a mechanism
+   topic, specificity means naming the exact process (a formula, a legal loophole, a chain of
+   custody for money or land) rather than a vague "how X really works" gesture at a topic.
 4. Append new ideas as rows in `content/topics.csv` (create it from the template below if it
    doesn't exist yet) rather than only listing them in chat, so the tracker stays the source of
    truth. Don't duplicate a topic that's already in the tracker with status other than `idea`.
@@ -101,3 +126,38 @@ to make it cleaner than it is. Where a topic has real disagreement about causes 
 who's responsible for a economic crisis), the strongest version of the video usually names the
 competing explanations rather than picking one and presenting it as settled, unless the
 evidence clearly favors one side.
+
+### When a topic needs extra care
+
+Most Decode Pakistan topics are economic or corporate mechanisms — real stakes, but not the
+kind of story where getting the framing wrong could mislead people about an active conflict,
+misgender a human rights claim, or read as taking a side in a security situation. A smaller set
+of topics carry materially higher stakes: an active insurgency, a live territorial or nuclear-
+adjacent dispute, casualty or disappearance figures that come from one side of a conflict, or
+an institution (the military, the judiciary) where a sloppy claim is both harder to verify and
+more consequential if wrong. Treat a topic as one of these — flag it `EXTRA CAUTION` in the
+tracker's notes column — when it involves any of: an armed group (even just describing one
+factually), contested casualty/disappearance numbers, a live nuclear-adjacent or war-risk
+dispute, or an institution whose independence or legitimacy is itself the disputed question.
+
+For these topics:
+- If the angle or scope is genuinely ambiguous (which of several very different episodes does
+  "cover X" actually mean), ask the user before researching deeply, the way a topic like
+  Balochistan's history/economics/current-crisis angle was confirmed up front rather than
+  guessed at.
+- Attribute every contested figure to its specific source in the script itself (a named
+  organization, not "reports say") — don't launder an advocacy group's number into the script's
+  own voice as settled fact, and don't launder a government denial into settled fact either.
+  Name both a claim and its source, and name the other side's position where one exists.
+  Note where a figure has never been reproduced by any other outlet, if that's the case.
+- Describe an armed or designated group's actions factually (what happened, when, sourced) —
+  never glorify, never provide operational detail, never editorialize about legitimacy in
+  either direction.
+- Flag in the script's own "Open items" section, not just the tracker, that the topic may
+  warrant a legal/compliance read before recording — that's a real recommendation for the user
+  to weigh, not boilerplate.
+
+This isn't a reason to avoid these topics — they're often exactly the stories a Think-School-
+style channel should be tackling, and avoiding them entirely would be its own kind of
+distortion. It's a reason to slow down on sourcing and attribution specifically, while keeping
+the same escalating-narrative craft as everything else on the channel.
