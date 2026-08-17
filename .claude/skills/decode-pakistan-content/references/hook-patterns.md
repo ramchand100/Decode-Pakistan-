@@ -49,11 +49,35 @@ out to the bigger story. Works well for business case studies with a clear incit
 > groups signed a single contract that would wipe out three family fortunes within eighteen
 > months. This is how it happened — and what it reveals about the industry nobody saw coming."
 
+## 5. Contradiction hook
+
+States two things that are both true but seem to conflict, and names the conflict directly
+instead of resolving it — the promise of the video is untangling the contradiction. This is
+different from the contrarian-claim hook: contrarian-claim challenges what the viewer already
+believes; the contradiction hook doesn't assume the viewer has a belief yet, it just puts two
+facts next to each other and lets the friction do the work. Especially strong for economics
+topics where the "obvious" cause-and-effect didn't play out as expected.
+
+> "Pakistan's central bank just cut interest rates for the fourth straight time — and business
+> lending fell anyway. That's not supposed to happen. Here's what actually broke."
+
+## 6. Vox-pop cold open (combinable opener)
+
+Not a standalone hook pattern but a device that can precede any of the five above: open on two
+or three short, real, differing answers to the same simple question (man-on-the-street style,
+or contrasting expert quotes), which establishes "here's the common wisdom" — then the actual
+hook breaks that consensus. This works because it lets the audience feel their own assumption
+stated out loud right before it gets challenged, which makes the break land harder than if the
+video just asserted the contrarian point cold. Only worth the production overhead (multiple
+short clips/quotes) when the topic has a genuinely common, quotable popular belief to set up —
+don't force it for niche mechanism explainers where there's no "common wisdom" to begin with.
+
 ## Choosing between them
 
 - Business case study with a clear inciting decision → story cold-open usually wins
 - Economic mechanism most people misunderstand → question or shocking-stat
 - Widely-repeated but shaky popular narrative → contrarian-claim
-- When unsure, generate all four and let the user pick — different hooks suit different
+- An event where the expected cause-and-effect visibly didn't happen → contradiction hook
+- When unsure, generate several and let the user pick — different hooks suit different
   audiences and thumbnail/title pairings, so this is a real creative decision, not just a
   formality.

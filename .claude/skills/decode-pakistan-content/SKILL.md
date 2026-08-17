@@ -28,6 +28,9 @@ should be recordable as-is.
   examples. Read this before writing hooks.
 - `references/script-template.md` — the full script structure with a worked example. Read
   this before writing a script.
+- `references/visual-style.md` — patterns for the bracketed cutaway/graphic cues to leave in a
+  script for an editor (or a future Remotion pipeline). Read this alongside
+  `script-template.md` when writing beat headings, not as a separate pass.
 
 ## Stage 1 — Finding topics
 
@@ -59,10 +62,10 @@ citations to put there.
 ## Stage 2 — Writing hooks
 
 Read `references/hook-patterns.md` first. For a given topic, generate one hook per pattern
-(question, shocking-stat, contrarian-claim, story-cold-open) — four total, not four variations
-of the same one — so the user is actually choosing between different angles, not different
-wordings. Each hook should be 1-3 sentences, exactly as it would be spoken on camera or in
-voiceover, not a description of a hook.
+(question, shocking-stat, contrarian-claim, story-cold-open, contradiction — five total, plus
+the vox-pop cold open as an optional combinable device on top of any of them) — so the user is
+actually choosing between different angles, not different wordings. Each hook should be 1-3
+sentences, exactly as it would be spoken on camera or in voiceover, not a description of a hook.
 
 After the user picks or the ideas are solid, record the winning hook_angle back into
 `content/topics.csv` for that topic and update its status to `hooked`.
@@ -76,6 +79,10 @@ explainer content:
 - **Escalation, not a list.** Each beat should raise the stakes or answer a question the last
   beat raised, not just add another fact. If a section could be reordered without changing
   anything, it's a list — restructure it so order matters.
+- **Mark cutaway cues as you write.** Add a short bracketed note after a line where the visual
+  should change (a diagram, a source screenshot, a return to camera) — see
+  `references/visual-style.md`. Writing these in at script time, not as a separate pass, keeps
+  the visual and narrative escalation in sync.
 - **Citations hold up to scrutiny.** Pakistani business/economics/politics content gets
   fact-checked hard in comments. Every non-obvious claim (a number, a date, a quote, an
   attribution of blame) needs an inline source note like `[Dawn, 2023]` or `[SBP annual report
